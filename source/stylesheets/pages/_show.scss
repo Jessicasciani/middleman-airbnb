@@ -1,0 +1,48 @@
+#show {
+  background-color: white;
+}
+
+.owner-card {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  h1 {
+    font-size: 18px;
+  }
+}
+
+
+.owner-description {
+  padding: 0 30px;
+  margin-bottom: 18px;
+  h1 {
+    color: black;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  i {
+    color: $yellow;
+  }
+}
+
+.avatar {
+    width: 100px;
+  }
+
+.form-booking {
+  background-color: $light-gray;
+  padding: 20px;
+  margin: 15px 0;
+  .form-control {
+    margin : 15px 0px;
+  }
+  .btn.btn-danger {
+    margin-top: 10px;
+  }
+  h4 {
+    color: white;
+  }
+}
