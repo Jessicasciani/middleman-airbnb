@@ -10,13 +10,13 @@
   <% data.flats.each do |owner, info| %>
     <div class="col-xs-6 col-md-4">
       <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://kitt.lewagon.com/placeholder/cities/<%= info.city_slug %>');">
-        <div class="card-category">info.city_name</div>
+        <div class="card-category"> <%= info.city_name  %></div>
         <div class="card-description">
           <h2><%= info.description %></h2>
           <p> <%= info.guest %> guests</p>
         </div>
         <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/<%= owner %>">
-        <a class="card-link" href="#" ></a>
+        <a class="card-link" href="/flats/<%= owner %>.html" ></a>
       </div>
     </div>
   <% end %>
